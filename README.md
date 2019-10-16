@@ -1,1 +1,1 @@
-test repo for cap - latest version
+test repo for cap
