@@ -1,0 +1,125 @@
+    record_id = db.Column(
+        UUIDType,
+        db.ForeignKey(RecordMetadata.id),
+        nullable=False,
+    )
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    name_run = db.Column(db.String(100), unique=False, nullable=False)
+    status = db.Column(db.String(100), unique=False, nullable=False)
+
+    reana_id = db.Column(
+        UUIDType,
+        unique=True,
+        nullable=False)
+    # the following fields represent the creation part of a workflow
+    engine = db.Column(db.Enum('yadage', 'cwl', 'serial', name='engine'),
+                       unique=False, nullable=False)
+
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    specification = db.Column(
+        json_type,
+        default=lambda: dict(),
+        nullable=True
+    )
+
+    params = db.Column(
+        record_id = db.Column(
+        UUIDType,
+        db.ForeignKey(RecordMetadata.id),
+        nullable=False,
+    )
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    name_run = db.Column(db.String(100), unique=False, nullable=False)
+    status = db.Column(db.String(100), unique=False, nullable=False)
+
+    reana_id = db.Column(
+        UUIDType,
+        unique=True,
+        nullable=False)
+    # the following fields represent the creation part of a workflow
+    engine = db.Column(db.Enum('yadage', 'cwl', 'serial', name='engine'),
+                       unique=False, nullable=False)
+
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    specification = db.Column(
+        json_type,
+        default=lambda: dict(),
+        nullable=True
+    )
+
+    params = db.Column(
+        record_id = db.Column(
+        UUIDType,
+        db.ForeignKey(RecordMetadata.id),
+        nullable=False,
+    )
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    name_run = db.Column(db.String(100), unique=False, nullable=False)
+    status = db.Column(db.String(100), unique=False, nullable=False)
+
+    reana_id = db.Column(
+        UUIDType,
+        unique=True,
+        nullable=False)
+    # the following fields represent the creation part of a workflow
+    engine = db.Column(db.Enum('yadage', 'cwl', 'serial', name='engine'),
+                       unique=False, nullable=False)
+
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    specification = db.Column(
+        json_type,
+        default=lambda: dict(),
+        nullable=True
+    )
+
+    params = db.Column(
+        record_id = db.Column(
+        UUIDType,
+        db.ForeignKey(RecordMetadata.id),
+        nullable=False,
+    )
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    name_run = db.Column(db.String(100), unique=False, nullable=False)
+    status = db.Column(db.String(100), unique=False, nullable=False)
+
+    reana_id = db.Column(
+        UUIDType,
+        unique=True,
+        nullable=False)
+    # the following fields represent the creation part of a workflow
+    engine = db.Column(db.Enum('yadage', 'cwl', 'serial', name='engine'),
+                       unique=False, nullable=False)
+
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    specification = db.Column(
+        json_type,
+        default=lambda: dict(),
+        nullable=True
+    )
+
+    params = db.Column(
+        record_id = db.Column(
+        UUIDType,
+        db.ForeignKey(RecordMetadata.id),
+        nullable=False,
+    )
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    name_run = db.Column(db.String(100), unique=False, nullable=False)
+    status = db.Column(db.String(100), unique=False, nullable=False)
+
+    reana_id = db.Column(
+        UUIDType,
+        unique=True,
+        nullable=False)
+    # the following fields represent the creation part of a workflow
+    engine = db.Column(db.Enum('yadage', 'cwl', 'serial', name='engine'),
+                       unique=False, nullable=False)
+
+    name = db.Column(db.String(100), unique=False, nullable=False)
+    specification = db.Column(
+        json_type,
+        default=lambda: dict(),
+        nullable=True
+    )
+
+    params = db.Column(
