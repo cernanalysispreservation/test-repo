@@ -1,0 +1,205 @@
+  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -
+  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -
+  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -
+  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -
+  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -  **kwargs
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 138, in serialize
+    index=(index if index_errors else None)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 62, in call_and_store
+    value = getter_func(data)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/marshalling.py", line 132, in <lambda>
+    getter = lambda d: field_obj.serialize(attr_name, d, accessor=accessor)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 252, in serialize
+    return self._serialize(value, attr, obj)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/marshmallow/fields.py", line 1199, in _serialize
+    return method(obj)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/serializers/schemas/json.py", line 53, in can_user_update
+    deposit = CAPDeposit.get_record(obj['pid'].object_uuid)
+  File "/Users/iliaskoutsakis/cap/cap/modules/deposit/api.py", line 469, in get_record
+    with_deleted=with_deleted)
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/invenio_records/api.py", line 205, in get_record
+    obj = query.one()
+  File "/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2900, in one
+    raise orm_exc.NoResultFound("No row was found for one()")
+NoResultFound: No row was found for one()
+/Users/iliaskoutsakis/.virtualenvs/cap2/lib/python2.7/site-packages/werkzeug/local.py:347: DeprecationWarning: json is deprecated.  Use get_json() instead.
+  return getattr(self._get_current_object(), name)
+
+127.0.0.1 - - [30/Oct/2019 11:17:01] "POST /deposits/ HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /deposits/886f01c803374ec399f9fe53110253d8/actions/upload?access_token=HI7g6Nv7HuGxO51lPC9nLsMowiLvPtib5cvra0D85MWA06KHhz2kXsPGJCDL HTTP/1.1" 201 -
+127.0.0.1 - - [30/Oct/2019 11:17:49] "POST /repos/event HTTP/1.1" 200 -
